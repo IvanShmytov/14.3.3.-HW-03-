@@ -42,9 +42,6 @@ namespace FinalTask
                         case '3':
                             page = sortedBook.Skip(4).Take(2);
                             break;
-                        default:
-                            Console.WriteLine("Вы ввели несуществующий номер страницы");
-                            break;
                     }
                     Console.WriteLine("Страница " + input);
                     foreach (var item in page)
